@@ -5,24 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MenuActivity"
-    >
+    tools:context=".MenuActivity">
 
-        <com.google.android.material.appbar.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_principal"
+            app:navigationIcon="@drawable/baseline_menu">
 
-            <com.google.android.material.appbar.MaterialToolbar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:navigationIcon="@drawable/baseline_menu"
-                app:menu=""
-                >
-
-            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.MaterialToolbar>
 
 
-        </com.google.android.material.appbar.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
 </LinearLayout>
