@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:icon="@drawable/baseline_menu" />
-    <item android:icon="@drawable/baseline_home" />
-    <item android:icon="@drawable/baseline_search" />
-    <item android:icon="@drawable/baseline_settings" />
+    <item android:icon="@drawable/baseline_favorite"
+        android:title="Favorito"
+        android:id="@+id/idFavorito"
+        android:contentDescription="Meu Favorito"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:icon="@drawable/baseline_share"
+        android:title="Compartilhar"
+        android:contentDescription="COmpartilhar"
+        android:id="@+id/idCompartilhar"
+        app:showAsAction="ifRoom"
+        />
+
+
+
 </menu>
